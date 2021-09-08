@@ -20,10 +20,16 @@ h1 {
 .input {
     margin: 20px;
     margin-top: 0;
-    height: 30px;
+    height: 40px;
+    border-radius: 20px;
+    text-align: center;
+}
+.input:focus-visible {
+    outline: transparent;
 }
 
 .boton {
     width: 100px;
-    height: 30px;
+    height: 40px;
+    border-radius: 20px;
 }
