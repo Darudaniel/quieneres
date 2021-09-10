@@ -21,6 +21,8 @@ const esJujo = (nombre) => {
         case 'jujo':
         case 'Jujo':
             return true
+        default:
+            return false
     }
 }
 
